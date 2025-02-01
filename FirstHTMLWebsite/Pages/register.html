@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas - Register</title>
+</head>
+
+<body>
+    <form>
+        <header>
+            <img src="../Multimedia/new_cn_logo.svg" />
+
+            <h1>Create an Account</h1>
+        </header>
+
+        <main>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="fullname" required placeholder="Enter your fullname">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="email" required placeholder="Enter your email address">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password" required placeholder="" minlength="8"
+                        maxlength="12">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="userType">User Type:</label>
+                    <select id="userType" name="user_type">
+                        <option>Select user type</option>
+                        <option value="student">Student</option>
+                        <option value="Professional">Professional</option>
+                        <option value="intern">Intern</option>
+                    </select>
+                    <br><br>
+                </div>
+                <div>
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course">
+                        <option value="web-development">Course 1 - Web Development</option>
+                        <option value="data-science">Course 2 - Data Science</option>
+                        <option value="digital-marketing">Course 3 - Digital Marketing</option>
+                        <option value="android-development">Course 4 - Android Development</option>
+                    </select>
+                    <br><br>
+                </div>
+
+                <button type="submit">Register</button>
+
+            </fieldset>
+        </main>
+    </form>
+</body>
+
+</html>
